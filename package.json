@@ -1,0 +1,10 @@
+{
+  "name": "karma_mocha_expect_sinon_example",
+  "version": "0.0.0",
+  "description": "",
+  "devDependencies": {
+    "karma": "~0.10",
+    "karma-mocha": "~0.1",
+    "karma-expect": "~1.0"
+  }
+}
