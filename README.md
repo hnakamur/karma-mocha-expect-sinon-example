@@ -10,9 +10,3 @@ Usage
   $ ./node_modules/karma/bin/karma start
 
 Coverage output files are generated in ./coverage/ directory.
-
-
-To do
------
-
-* Integrate Sinon.js

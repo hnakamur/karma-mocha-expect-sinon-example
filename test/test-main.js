@@ -15,7 +15,9 @@ requirejs.config({
         'jquery': '../lib/jquery',
         'underscore': '../lib/underscore',
         'backbone': '../lib/backbone',
-        'Todo': '../src/todo'
+        'sinon': '../test/sinon',
+        'Todo': '../src/todo',
+        'isSunday': '../src/isSunday'
     },
 
     shim: {
@@ -23,12 +25,18 @@ requirejs.config({
             deps: ['backbone'],
             exports: 'Todo'
         },
+        'isSunday': {
+            exports: 'isSunday'
+        },
         'backbone': {
             deps: ['jquery', 'underscore'],
             exports: 'Backbone'
         },
         'underscore': {
             exports: '_'
+        },
+        'sinon': {
+            exports: 'sinon'
         }
     },
 
