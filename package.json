@@ -6,6 +6,7 @@
     "karma": "~0.10",
     "karma-mocha": "~0.1",
     "karma-expect": "~1.0",
-    "karma-safari-launcher": "~0.1"
+    "karma-safari-launcher": "~0.1",
+    "karma-coverage": "~0.1"
   }
 }
