@@ -11,8 +11,10 @@ Install node.js
 Usage
 -----
 
-  $ npm install
-  $ ./node_modules/karma/bin/karma start
+```
+$ npm install
+$ ./node_modules/karma/bin/karma start
+```
 
 Coverage output files are generated in ./coverage/ directory.
 
